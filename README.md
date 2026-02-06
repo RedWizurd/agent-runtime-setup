@@ -28,6 +28,13 @@ pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
+## Usage
+```bash
+make setup
+make check
+make run
+```
+
 ## Roadmap
 - Add production deployment templates (container and systemd).
 - Add CI quality gates for policy/schema checks.
